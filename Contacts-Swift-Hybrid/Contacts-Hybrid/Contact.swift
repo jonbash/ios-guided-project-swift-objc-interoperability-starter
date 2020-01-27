@@ -8,7 +8,10 @@
 
 import Foundation
 
-class Contact {
+@objc  // could do `@objc(JBContact)`, but that leads to issues when going back and forth
+@objcMembers
+class Contact: NSObject {
+
     var name: String
     var relationship: String?
 
