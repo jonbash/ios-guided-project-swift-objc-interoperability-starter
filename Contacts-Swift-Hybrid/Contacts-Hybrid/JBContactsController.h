@@ -11,7 +11,7 @@
 
 @class Contact;
 
-
+NS_SWIFT_NAME(ContactsController)
 @interface JBContactsController : NSObject
 
 @property (nonatomic, readonly, nonnull) NSArray<Contact *> *contacts;
